@@ -26,7 +26,6 @@ console.log(movieObj.getPG([movieObj,movieObj1,movieObj2,movieObj3]));  //Task:-
 
 
 //Task:- 3
-
 class Person {
     constructor(name, age, gender,martialStatus, constact, email){
         this.name = name;
@@ -41,10 +40,12 @@ class Person {
 const personObj = new Person("Nobody", 22 , 'Male', 'Single', 987654321, 'nobody123@gmail.com');
 console.log(personObj);
 
-//Task:- 3
+//Task:- 2
 class Circle {
-    constructor(radius, string){
+    constructor(radius=1.0, string="red"){
         this.radius = radius;
         this.string = string;
     }
 }
+
+const circleObj = new Circle();
