@@ -93,3 +93,6 @@ class UberPrice {
     }
 }
 
+let cObj = new UberPrice(50,5);
+console.log(cObj.rate);
+
